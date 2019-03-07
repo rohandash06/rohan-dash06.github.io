@@ -702,7 +702,6 @@ footer {
     td {
         border: 1px solid black;
         border-style:solid;
-        display: table;
         margin: 0 auto;
         padding: 0;
         max-width: 800px;
@@ -711,7 +710,6 @@ footer {
     tr {
         border: 1px solid black;
         border-style:solid;
-        display: table;
         margin: 7px;
         padding: 5px 10px;
         background: darken($background-alt, 5%);
