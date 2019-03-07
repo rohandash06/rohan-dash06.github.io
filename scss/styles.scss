@@ -694,13 +694,14 @@ footer {
 
     table {
         border-collapse: collapse;
-        border: 1px solid Black;
+        border: 1px solid black;
         width: 100%;
      }
         
     
     td {
-        border: 1px solid Black;
+        border: 1px solid black;
+        border-style:solid;
         display: table;
         margin: 0 auto;
         padding: 0;
@@ -708,13 +709,12 @@ footer {
     }
 
     tr {
-        border: 1px solid Black;
+        border: 1px solid black;
+        border-style:solid;
         display: table;
         margin: 7px;
         padding: 5px 10px;
-        color: $heading;
         background: darken($background-alt, 5%);
-        list-style: none;
         cursor: default;
         font-size: 1.2em;
     }
