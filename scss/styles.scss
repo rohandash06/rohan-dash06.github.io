@@ -694,7 +694,8 @@ footer {
 
     td {
         border: 1px solid #dddddd;
-        display: block;
+        border-collapse: collapse;
+        display: table;
         margin: 0 auto;
         padding: 0;
         max-width: 800px;
@@ -702,7 +703,8 @@ footer {
 
     tr {
         border: 1px solid #dddddd;
-        display: inline-block;
+        border-collapse: collapse;
+        display: table;
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
