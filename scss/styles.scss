@@ -694,13 +694,13 @@ footer {
 
     table {
         border-collapse: collapse;
+        border: 1px solid #dddddd;
         width: 100%;
      }
         
     
     td {
         border: 1px solid #dddddd;
-        border-collapse: collapse;
         display: table;
         margin: 0 auto;
         padding: 0;
@@ -709,7 +709,6 @@ footer {
 
     tr {
         border: 1px solid #dddddd;
-        border-collapse: collapse;
         display: table;
         margin: 7px;
         padding: 5px 10px;
